@@ -1,0 +1,27 @@
+body {
+  padding-top: 70px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border-color: rgba(236,240,241,.5);
+}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.colophon {
+	border-top: 1px solid #ccc;
+	clear: both;
+}
