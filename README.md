@@ -17,6 +17,6 @@ using d3.js.
 
 #### default admin login: admin : abc123
 
-Code is released under Apache License v2 license.
+Code is released under [Apache License v2 license](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 [![Buy me a coffee](http://i.imgur.com/qB510Gx.png "Buy me a coffee?")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WH8N24DEJKVCE) 
