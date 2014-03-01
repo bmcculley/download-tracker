@@ -30,7 +30,6 @@ class Login {
 		}
 		else {
 			while($row = $result->fetch_assoc()) {
-			    echo $row['access_level'] . '<br />';
 			    $this->set_user($row['username'], $row['access_level']);
 			    header('Location: ./');
 			}
