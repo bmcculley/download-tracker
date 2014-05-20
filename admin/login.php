@@ -8,7 +8,7 @@ require_once('login_controller.php');
 $login = new Login();
 
 if (isset($_POST['Submit'])) {
-	$login->user_login($_REQUEST['username'], $_REQUEST['password']);
+	$login->user_login($_POST['username'], $_POST['password']);
 }
 ?>
 <!DOCTYPE html>
