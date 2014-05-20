@@ -61,7 +61,7 @@ if ($lvl <= 0) {
           <div class="navbar-btn navbar-right">
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WH8N24DEJKVCE" class="btn btn-success"><span class="glyphicon glyphicon-thumbs-up"></span> <i>Buy me a</i> Coffee</a>
             <div class="btn-group">
-              <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user"> <?php echo 'Howdy, '.($_COOKIE['user']!='' ? $_COOKIE['user'] : 'Guest'); ?></button>
+              <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user"> <?php echo 'Welcome, '.($_COOKIE['user']!='' ? $_COOKIE['user'] : 'Guest'); ?></button>
               <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                 <span class="caret"></span>
               </button>
